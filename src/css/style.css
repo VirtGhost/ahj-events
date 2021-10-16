@@ -4,7 +4,7 @@ body {
 
 .goblin {
     width: 520px;
-    cursor: url('../img/hammer.png'), pointer; 
+    cursor: url('../img/lips.png'), pointer; 
 }
 
 .goblin .results {
@@ -29,7 +29,7 @@ body {
     width: 120px;
     height: 120px;
     border: 1px solid #000000;
-    border-radius: 4px;
+    border-radius: 20px;
     margin: 2px;
     padding: 2px;
 }
