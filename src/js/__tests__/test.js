@@ -58,7 +58,5 @@ test('lose', () => {
   const goblin = new Goblin(html.querySelector('.goblin'));
   goblin.init();
   jest.runTimersToTime(6000);
-  expect(goblin.game.miss).toBe(5);
-  jest.runTimersToTime(2000);
-  expect(goblin.game.miss).toBe(5);
+  expect(goblin.game.miss).toBe(0);
 });

@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import Score from './Score';
 
 export default class Goblin {
@@ -27,6 +28,7 @@ export default class Goblin {
         if (this.game.miss === 5) {
           clearInterval(gameInterval);
           alert('You lose!');
+          this.init();
         }
       }
 
